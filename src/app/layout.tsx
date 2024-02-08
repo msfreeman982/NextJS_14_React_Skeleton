@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import MainLayout from '@/components/templates/MainLayout.tsx'
+import MainLayout from '@/components/templates/MainLayout'
 import links from '@/data/mocks'
 
 import '@/styles/global.css'

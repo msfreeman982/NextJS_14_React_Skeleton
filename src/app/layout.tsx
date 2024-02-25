@@ -3,6 +3,7 @@ import MainLayout from '@/components/templates/MainLayout'
 import links from '@/data/mocks'
 
 import '@/styles/global.css'
+import '@/styles/normalize.css'
 
 interface RootLayoutProps {
     children: React.ReactNode

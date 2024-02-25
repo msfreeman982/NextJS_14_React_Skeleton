@@ -13,7 +13,9 @@ const MainLayout: FC<MainLayoutProps> = ({ children, links }) => {
             <header>
                 <Header links={links} />
             </header>
-            {children}
+            <main>
+                {children}
+            </main>
             <footer>
                 <Footer />
             </footer>
